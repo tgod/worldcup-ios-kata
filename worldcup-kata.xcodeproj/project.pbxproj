@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		542F1295200E517A00B79230 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542F1294200E517A00B79230 /* AppDelegate.swift */; };
+		542F1297200E517A00B79230 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542F1296200E517A00B79230 /* ViewController.swift */; };
+		542F129A200E517A00B79230 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542F1298200E517A00B79230 /* Main.storyboard */; };
+		542F129C200E517A00B79230 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 542F129B200E517A00B79230 /* Assets.xcassets */; };
+		542F129F200E517A00B79230 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 542F129D200E517A00B79230 /* LaunchScreen.storyboard */; };
+		542F12AA200E517A00B79230 /* worldcup_kataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542F12A9200E517A00B79230 /* worldcup_kataTests.swift */; };
+		542F12C3200E51F800B79230 /* TeamRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542F12C2200E51F800B79230 /* TeamRepository.swift */; };
+		542F12C5200E520B00B79230 /* TeamRepositoryTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 542F12C4200E520B00B79230 /* TeamRepositoryTest.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		542F12A6200E517A00B79230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 542F1289200E517A00B79230 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 542F1290200E517A00B79230;
+			remoteInfo = "worldcup-kata";
+		};
+		542F12B1200E517A00B79230 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 542F1289200E517A00B79230 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 542F1290200E517A00B79230;
+			remoteInfo = "worldcup-kata";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		542F1291200E517A00B79230 /* worldcup-kata.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "worldcup-kata.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		542F1294200E517A00B79230 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		542F1296200E517A00B79230 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		542F1299200E517A00B79230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		542F129B200E517A00B79230 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		542F129E200E517A00B79230 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		542F12A0200E517A00B79230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542F12A5200E517A00B79230 /* worldcup-kataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "worldcup-kataTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		542F12A9200E517A00B79230 /* worldcup_kataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = worldcup_kataTests.swift; sourceTree = "<group>"; };
+		542F12AB200E517A00B79230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542F12B0200E517A00B79230 /* worldcup-kataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "worldcup-kataUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		542F12B6200E517A00B79230 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		542F12C2200E51F800B79230 /* TeamRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRepository.swift; sourceTree = "<group>"; };
+		542F12C4200E520B00B79230 /* TeamRepositoryTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamRepositoryTest.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		542F128E200E517A00B79230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542F12A2200E517A00B79230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542F12AD200E517A00B79230 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		542F1288200E517A00B79230 = {
+			isa = PBXGroup;
+			children = (
+				542F1293200E517A00B79230 /* worldcup-kata */,
+				542F12A8200E517A00B79230 /* worldcup-kataTests */,
+				542F12B3200E517A00B79230 /* worldcup-kataUITests */,
+				542F1292200E517A00B79230 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		542F1292200E517A00B79230 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				542F1291200E517A00B79230 /* worldcup-kata.app */,
+				542F12A5200E517A00B79230 /* worldcup-kataTests.xctest */,
+				542F12B0200E517A00B79230 /* worldcup-kataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		542F1293200E517A00B79230 /* worldcup-kata */ = {
+			isa = PBXGroup;
+			children = (
+				542F1294200E517A00B79230 /* AppDelegate.swift */,
+				542F1296200E517A00B79230 /* ViewController.swift */,
+				542F1298200E517A00B79230 /* Main.storyboard */,
+				542F129B200E517A00B79230 /* Assets.xcassets */,
+				542F129D200E517A00B79230 /* LaunchScreen.storyboard */,
+				542F12A0200E517A00B79230 /* Info.plist */,
+				542F12C2200E51F800B79230 /* TeamRepository.swift */,
+			);
+			path = "worldcup-kata";
+			sourceTree = "<group>";
+		};
+		542F12A8200E517A00B79230 /* worldcup-kataTests */ = {
+			isa = PBXGroup;
+			children = (
+				542F12A9200E517A00B79230 /* worldcup_kataTests.swift */,
+				542F12AB200E517A00B79230 /* Info.plist */,
+				542F12C4200E520B00B79230 /* TeamRepositoryTest.swift */,
+			);
+			path = "worldcup-kataTests";
+			sourceTree = "<group>";
+		};
+		542F12B3200E517A00B79230 /* worldcup-kataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				542F12B6200E517A00B79230 /* Info.plist */,
+			);
+			path = "worldcup-kataUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		542F1290200E517A00B79230 /* worldcup-kata */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542F12B9200E517A00B79230 /* Build configuration list for PBXNativeTarget "worldcup-kata" */;
+			buildPhases = (
+				542F128D200E517A00B79230 /* Sources */,
+				542F128E200E517A00B79230 /* Frameworks */,
+				542F128F200E517A00B79230 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "worldcup-kata";
+			productName = "worldcup-kata";
+			productReference = 542F1291200E517A00B79230 /* worldcup-kata.app */;
+			productType = "com.apple.product-type.application";
+		};
+		542F12A4200E517A00B79230 /* worldcup-kataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542F12BC200E517A00B79230 /* Build configuration list for PBXNativeTarget "worldcup-kataTests" */;
+			buildPhases = (
+				542F12A1200E517A00B79230 /* Sources */,
+				542F12A2200E517A00B79230 /* Frameworks */,
+				542F12A3200E517A00B79230 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				542F12A7200E517A00B79230 /* PBXTargetDependency */,
+			);
+			name = "worldcup-kataTests";
+			productName = "worldcup-kataTests";
+			productReference = 542F12A5200E517A00B79230 /* worldcup-kataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		542F12AF200E517A00B79230 /* worldcup-kataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542F12BF200E517A00B79230 /* Build configuration list for PBXNativeTarget "worldcup-kataUITests" */;
+			buildPhases = (
+				542F12AC200E517A00B79230 /* Sources */,
+				542F12AD200E517A00B79230 /* Frameworks */,
+				542F12AE200E517A00B79230 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				542F12B2200E517A00B79230 /* PBXTargetDependency */,
+			);
+			name = "worldcup-kataUITests";
+			productName = "worldcup-kataUITests";
+			productReference = 542F12B0200E517A00B79230 /* worldcup-kataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		542F1289200E517A00B79230 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Tomasz Gorski";
+				TargetAttributes = {
+					542F1290200E517A00B79230 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					542F12A4200E517A00B79230 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 542F1290200E517A00B79230;
+					};
+					542F12AF200E517A00B79230 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 542F1290200E517A00B79230;
+					};
+				};
+			};
+			buildConfigurationList = 542F128C200E517A00B79230 /* Build configuration list for PBXProject "worldcup-kata" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 542F1288200E517A00B79230;
+			productRefGroup = 542F1292200E517A00B79230 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				542F1290200E517A00B79230 /* worldcup-kata */,
+				542F12A4200E517A00B79230 /* worldcup-kataTests */,
+				542F12AF200E517A00B79230 /* worldcup-kataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		542F128F200E517A00B79230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542F129F200E517A00B79230 /* LaunchScreen.storyboard in Resources */,
+				542F129C200E517A00B79230 /* Assets.xcassets in Resources */,
+				542F129A200E517A00B79230 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542F12A3200E517A00B79230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542F12AE200E517A00B79230 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		542F128D200E517A00B79230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542F1297200E517A00B79230 /* ViewController.swift in Sources */,
+				542F12C3200E51F800B79230 /* TeamRepository.swift in Sources */,
+				542F1295200E517A00B79230 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542F12A1200E517A00B79230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				542F12C5200E520B00B79230 /* TeamRepositoryTest.swift in Sources */,
+				542F12AA200E517A00B79230 /* worldcup_kataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		542F12AC200E517A00B79230 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		542F12A7200E517A00B79230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 542F1290200E517A00B79230 /* worldcup-kata */;
+			targetProxy = 542F12A6200E517A00B79230 /* PBXContainerItemProxy */;
+		};
+		542F12B2200E517A00B79230 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 542F1290200E517A00B79230 /* worldcup-kata */;
+			targetProxy = 542F12B1200E517A00B79230 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		542F1298200E517A00B79230 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				542F1299200E517A00B79230 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		542F129D200E517A00B79230 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				542F129E200E517A00B79230 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		542F12B7200E517A00B79230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		542F12B8200E517A00B79230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		542F12BA200E517A00B79230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "worldcup-kata/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtworks.worldcup-kata";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		542F12BB200E517A00B79230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "worldcup-kata/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtworks.worldcup-kata";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		542F12BD200E517A00B79230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "worldcup-kataTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtworks.worldcup-kataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/worldcup-kata.app/worldcup-kata";
+			};
+			name = Debug;
+		};
+		542F12BE200E517A00B79230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "worldcup-kataTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtworks.worldcup-kataTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/worldcup-kata.app/worldcup-kata";
+			};
+			name = Release;
+		};
+		542F12C0200E517A00B79230 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "worldcup-kataUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtworks.worldcup-kataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "worldcup-kata";
+			};
+			name = Debug;
+		};
+		542F12C1200E517A00B79230 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "worldcup-kataUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.thoughtworks.worldcup-kataUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "worldcup-kata";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		542F128C200E517A00B79230 /* Build configuration list for PBXProject "worldcup-kata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542F12B7200E517A00B79230 /* Debug */,
+				542F12B8200E517A00B79230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		542F12B9200E517A00B79230 /* Build configuration list for PBXNativeTarget "worldcup-kata" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542F12BA200E517A00B79230 /* Debug */,
+				542F12BB200E517A00B79230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		542F12BC200E517A00B79230 /* Build configuration list for PBXNativeTarget "worldcup-kataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542F12BD200E517A00B79230 /* Debug */,
+				542F12BE200E517A00B79230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		542F12BF200E517A00B79230 /* Build configuration list for PBXNativeTarget "worldcup-kataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				542F12C0200E517A00B79230 /* Debug */,
+				542F12C1200E517A00B79230 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 542F1289200E517A00B79230 /* Project object */;
+}
